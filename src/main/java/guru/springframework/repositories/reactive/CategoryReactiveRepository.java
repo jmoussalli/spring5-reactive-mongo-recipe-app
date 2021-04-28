@@ -4,10 +4,8 @@ import guru.springframework.domain.Category;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 import reactor.core.publisher.Mono;
 
-import java.util.Optional;
-
 /**
- * Created by jerom on 27/04/2021 at 14:55
+ * Created by jt on 8/17/17.
  */
 public interface CategoryReactiveRepository extends ReactiveMongoRepository<Category, String> {
 
